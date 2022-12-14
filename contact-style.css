@@ -1,0 +1,75 @@
+.firstPage-contact{
+  width: 100%;
+  height: 70vh;
+  background-image: url("../resurse/photo-background.jpeg");
+  background-size: 100% 100%;
+  background-position: center;
+  margin-top: -40px;
+}
+.firstPage-contact h2{
+text-align: center;
+}
+
+.span-bold{
+  font-weight: bold;
+  font-size: 7.9vw;
+  font-family: "Josefin Sans", sans-serif;
+  text-shadow: 2px 2px 2px white;
+  letter-spacing: 8px;
+  color: rgb(10, 10, 10);
+}
+  
+.locatii-container{
+    width: 100%;
+    display: flex;
+    background-color: #282E34;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+    font-weight: bold;
+    font-size: 3.1vh;
+    font-family: "Josefin Sans", sans-serif;
+    color:white;
+}
+
+.map-section-location{
+    width: 40%;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.orar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 2.5vh;
+    font-family: "Josefin Sans", sans-serif;
+    color: rgb(10, 10, 10);
+}
+
+/*Responsive*/
+@media only screen and (max-width: 650px){
+  .firstPage-contact {
+    background-size:contain;
+    background-position:center;
+  }
+
+  .locatii-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.1vh;
+}
+
+.locatii-container h1{
+  text-align: center;
+}
+ 
+}

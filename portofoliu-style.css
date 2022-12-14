@@ -1,0 +1,128 @@
+.firstPage-portofoliu{
+  width: 100%;
+  height: 70vh;
+  background-image: url("../resurse/photo-background.jpeg");
+  background-size: 100% 100%;
+  margin-top: -78px;
+}
+
+.span-bold{
+  font-weight: bold;
+  font-size: 7.9vw;
+  font-family: "Josefin Sans", sans-serif;
+  text-shadow: 2px 2px 2px white;
+  word-spacing: 5px;
+  letter-spacing: 5px;
+  color: rgb(10, 10, 10);
+}
+
+main h2{
+  text-align: center;
+  font-weight: bold;
+  font-size: 3.6vw;
+  font-family: "Josefin Sans", sans-serif;
+  text-shadow: 2px 2px 2px white;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+  margin-top: 58px;
+  margin-bottom: 60px;
+  color: rgb(10, 10, 10);
+}
+
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 700px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: rgb(31, 30, 30);
+}
+
+/*Galerie foto*/
+.galerie-container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+.galerie-container img{
+  width: 350px;
+  height: 320px;
+  margin-left: 18px;
+  margin-bottom: 25px;
+}
+
+.galerie-container img:hover{
+  transform: scale(1.45);
+  transition: all 0.5s;
+  cursor: pointer;
+  border: 3px solid  #ea1539b9;;
+  outline: 3px solid  #f4d7d1;
+}
+
+
+/*Responsive*/
+@media only screen and (max-width: 650px){
+  .firstPage-portofoliu{
+    background-size:cover;
+    background-position:center;
+  }
+
+  .firstPage-portofoliu h2{
+    margin-top: 120px;
+  }
+  .slideshow-container {
+    max-width: 400px;
+  }
+
+  .galerie-container {
+    margin-left: 90px;
+  }
+
+  main h2{
+    font-size: 1.3vh;
+  }
+
+  .galerie-container img{
+    width: 250px;
+    height: 220px;
+    margin-left: 70px;
+  }
+  
+  .galerie-container img:hover{
+    transform: scale(1.25);
+  }
+}

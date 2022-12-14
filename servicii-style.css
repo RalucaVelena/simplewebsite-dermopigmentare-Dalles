@@ -1,0 +1,74 @@
+.firstPage-servicii {
+  width: 100%;
+  height: 70vh;
+  background-image: url("../resurse/photo-background.jpeg");
+  background-size: 100% 100%;
+  background-position: center;
+  margin-top: -50px;
+}
+
+.span-bold {
+  font-weight: bold;
+  font-size: 7.9vw;
+  font-family: "Josefin Sans", sans-serif;
+  text-shadow: 2px 2px 2px white;
+  word-spacing: 5px;
+  letter-spacing: 5px;
+  color: rgb(10, 10, 10);
+}
+
+
+main h2 {
+  color: rgb(10, 10, 10);
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  font-size: 4.4vh;
+  margin-top: 30px;
+  margin-bottom: 40px;
+
+}
+
+table {
+  border-collapse: separate;
+  width: 100%;
+  color: black;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  font-size: 3.5vh;
+  font-weight: 800;
+}
+
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:hover {
+  background-color: #c787b9;
+}
+
+.table-prices {
+  overflow-x: auto;
+  margin-left: 35px;
+  margin-top: 76px;
+}
+
+main p {
+  text-align: center;
+  font-size: 1.7vw;
+  font-weight: bold;
+  margin-top: 35px;
+  color: black;
+}
+
+/*Responsive*/
+@media only screen and (max-width: 650px){
+  .span-bold{
+  font-size: 2.4vh;
+  }
+
+  table {
+    width: 100%;
+    font-size: 1vh;
+  }
+}

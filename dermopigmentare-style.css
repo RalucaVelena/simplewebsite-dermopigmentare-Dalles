@@ -1,0 +1,624 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Plus+Jakarta+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Staatliches&family=Ultra&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Roboto:wght@700&family=Staatliches&family=Ultra&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: rgb(250, 249, 249);
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  color: #777;
+}
+
+/*Header*/
+.header-orizontal-menu {
+  width: 100%;
+  height: fit-content;
+  padding: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  background-color: #282E34;
+  background-color: #000;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 3.2vh;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 68px;
+  letter-spacing: 1px;
+}
+
+nav a:hover {
+  color: #dfa0b5;
+  font-size: 3.5vh;
+}
+
+/*Parallax*/
+.paragraf-border-outline {
+  margin-left: 98px;
+}
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-1 {
+  background-image: url("../resurse/photo-background.jpeg");
+  min-height: 100%;
+  margin-top: 78px;
+}
+
+.bgimg-2 {
+  background-image: url("../resurse/photo-background.jpeg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("../resurse/photo-background.jpeg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+  margin-bottom: 78px;
+}
+
+.firstpage h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+
+
+/*Main*/
+main {
+  width: 100%;
+  height: max-content;
+  padding: 20px;
+  margin-bottom: 70px;
+}
+
+section {
+  width: 100%;
+  height: max-content;
+}
+
+.first-page {
+  width: 100%;
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: url("../resurse/photo-background.jpeg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.first-page-title {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-page-title h1 {
+  margin-top: 5px;
+  text-transform: capitalize;
+  font-family: "Lato", sans-serif;
+  font-size: 6.5em;
+  color: white;
+  text-shadow: 3px 2px 3px black;
+  text-align: center;
+}
+
+.firstPage-text {
+  margin-top: 127px;
+  color: white;
+  text-align: center;
+}
+
+.first-page h3 {
+  text-shadow: 2px 2px 2px white;
+  font-size: 1.3vw;
+  font-family: "Lato", sans-serif;
+  color: black;
+  font-weight: bold;
+}
+
+.firstPage-text button {
+  width: 50%;
+  background-color: #d3b5bf;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 15px;
+  color: #f2f2f2;
+  font-size: 4.2vh;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+.firstPage-text button:hover {
+  background-color: #ac8390;
+  border: 1px solid #f1a0ba;
+  cursor: pointer;
+}
+
+section h2,
+h3,
+p {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 1.2em;
+}
+
+.paragraf-border-outline p {
+  background: #f4d7d1;
+  color: #000;
+  width: 90%;
+  border: 4px solid white;
+  outline: 4px solid #f4d7d1;
+  margin-top: 23px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  font-weight: 900;
+}
+
+.buton-preturi {
+  margin-top: 10px;
+}
+
+.buton-preturi button {
+  transition: 0.4s;
+  width: 50%;
+  background-color: #d3b5bf;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 15px;
+  color: #f2f2f2;
+  font-size: 4.2vh;
+  cursor: pointer;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 305px;
+}
+
+.buton-preturi button:hover {
+  background-color: #ac8390;
+  border: 1px solid #f1a0ba;
+  cursor: pointer;
+}
+
+.location-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 85px;
+  margin-bottom: 135px;
+}
+
+.iasi-location {
+  width: 50%;
+  color: white;
+  text-shadow: 3px 3px 5px rgb(7, 7, 7);
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  font-size: 3.4vh;
+}
+
+.bacau-location {
+  width: 50%;
+  color: white;
+  text-shadow: 3px 3px 5px rgb(7, 7, 7);
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  font-size: 3.4vh;
+}
+
+/*Flip card*/
+.flip-card {
+  background-color: transparent;
+  width: 350px;
+  height: 300px;
+  color: #f2f2f2;
+  perspective: 1000px;
+  /* Remove this if you don't want the 3D effect */
+  margin-top: 35px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  margin-top: 35px;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: white;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: #d3b5bf;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.caption a {
+  text-decoration: none;
+  color: #e77cde;
+}
+
+.caption a:hover {
+  background-color: #ac8390;
+  border: 1px solid #f1a0ba;
+  color:#f2f2f2;
+  cursor: pointer;
+}
+/*Stilizare footer*/
+
+.footer {
+  background-color: #282E34;
+  background-color: #000;
+  width: 100%;
+  max-height: 80vh;
+  padding: 100px 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  margin: 0;
+}
+
+.footer div {
+  text-align: center;
+}
+
+.col-2 input {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.web-link {
+  text-decoration: none;
+  color: white;
+}
+
+.web-link:hover {
+  color: #e77cde;
+}
+
+.col-2 {
+  flex-grow: 2;
+  margin-top: -163px;
+}
+
+.col-2 h3 {
+  font-size: 3vh;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  margin-top: 90px;
+}
+
+.footer div h3 {
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.location-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.location {
+  color: white;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  font-size: 1.9vh;
+  margin-left: 20px;
+}
+
+.location a {
+  text-decoration: none;
+  color: #f2f2f2;
+  font-size: 18px;
+}
+
+.location a:hover {
+  color: #e77cde;
+}
+
+/*End Footer*/
+
+/*Responsive for phones*/
+@media only screen and (max-width: 650px) {
+  .header-orizontal-menu a {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 2.4vh;
+    margin-right: 50px;
+  }
+
+  main {
+    width: 90%;
+  }
+
+  .first-page-title h1 {
+    font-size: 2.3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 80px;
+  }
+
+  .firstPage-text {
+    margin-top: 327px;
+  }
+
+  .firstPage-text h3 {
+    font-size: 1.2rem;
+  }
+
+  .firstPage-text button {
+    width: 100%;
+    font-size: 2vh;
+    margin-left: 15px;
+  }
+
+  .section h2 {
+    font-size: 0.8vh;
+  }
+
+  .paragraf-border-outline {
+    width: 100%;
+    margin-left: 10px;
+  }
+
+  .paragraf-border-outline p {
+    width: 100%;
+    font-size: 1.7vh;
+    margin-top: 23px;
+    letter-spacing: 0.1px;
+    font-weight: 600;
+  }
+
+  .location-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .iasi-location {
+    width: 100%;
+    margin-bottom: 145px;
+  }
+
+  .bacau-location {
+    width: 100%;
+  }
+
+  .iasi-location p {
+    font-size: 1.6vh;
+  }
+
+  .bacau-location p {
+    font-size: 1.6vh;
+  }
+
+  .flip-card {
+    margin-left: -90px;
+  }
+
+  .buton-preturi button {
+    width: 100%;
+    font-size: 2vh;
+    margin-left: 15px;
+  }
+
+  .paragraf-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 0.9vh;
+    color: #000;
+  }
+
+  .caption a {
+    font-size: 1.1vh;
+  }
+
+  .footer {
+    width: 100%;
+    max-height: max-content;
+    padding: 10px 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .col-2 h3 {
+    font-size: 2.3vh;
+    margin-top: 20px;
+  }
+
+  .col-2 {
+    margin-top: 5px;
+  }
+
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+
+  .bgimg-1,
+  .bgimg-2,
+  .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+
+/*Responsive for tablets*/
+@media only screen and (max-width: 850px) {
+  .header-orizontal-menu a {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 2.4vh;
+    margin-right: 50px;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  .first-page-title h1 {
+    font-size: 5.3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 80px;
+  }
+
+  .firstPage-text {
+    margin-top: 327px;
+  }
+
+  .firstPage-text h3 {
+    font-size: 1.9vh;
+  }
+
+  .buton-preturi button {
+    width: 100%;
+    font-size: 2.3h;
+    margin-left: 15px;
+  }
+
+  .location-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-right: 300px;
+  }
+
+  .iasi-location {
+    width: 100%;
+    margin-bottom: 145px;
+    margin-right: 40px;
+  }
+
+  .bacau-location {
+    width: 100%;
+    margin-right: 40px;
+    margin-bottom: 150px;
+  }
+
+
+  .caption a {
+    font-size: 1.5vh;
+  }
+
+  .footer {
+    width: 100%;
+    max-height: max-content;
+    padding: 10px 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .col-2 h3 {
+    font-size: 2.6vh;
+    margin-top: 20px;
+  }
+
+  .col-2 {
+    margin-top: 5px;
+  }
+
+}

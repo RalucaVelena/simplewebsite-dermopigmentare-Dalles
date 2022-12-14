@@ -1,0 +1,143 @@
+.firstPage-info {
+    width: 100%;
+    height: 70vh;
+    background-image: url("../resurse/photo-background.jpeg");
+    background-size: 100% 100%;
+    margin-top: -78px;
+}
+
+.span-bold {
+    font-weight: bold;
+    font-size: 7.9vw;
+    font-family: "Josefin Sans", sans-serif;
+    text-shadow: 2px 2px 2px white;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    color: rgb(10, 10, 10);
+}
+
+/*Buton read more/read less js*/
+.article-eyebrow {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.article-image {
+    width: 40%;
+    height: auto;
+    text-align: center;
+}
+
+.article-image img {
+    width: 550px;
+    height: 450px;
+    border-radius: 4px;
+}
+
+.paragraf-more {
+    width: 70%;
+    font-size: 2.3vh;
+    text-align: left;
+    font-weight: 600;
+    margin-left: 70px;
+    margin-right: 70px;
+    color: rgb(10, 10, 10);
+}
+
+#more {
+    display: none;
+}
+
+#more2 {
+    display: none;
+}
+
+#more3 {
+    display: none;
+}
+
+#myBtn {
+    width: 50%;
+    background-color: #d3b5bf;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 10px;
+    color: white;
+    text-shadow: 2px 1px 2px black;
+    font-size: 3.2vh;
+    letter-spacing: 4px;
+}
+
+#myBtn2 {
+    width: 50%;
+    background-color: #d3b5bf;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 10px;
+    color: white;
+    text-shadow: 2px 1px 2px black;
+    font-size: 3.2vh;
+    letter-spacing: 4px;
+}
+
+#myBtn3 {
+    width: 50%;
+    background-color: #d3b5bf;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 10px;
+    color: white;
+    text-shadow: 2px 1px 2px black;
+    font-size: 3.2vh;
+    letter-spacing: 4px;
+}
+
+main h2 {
+    color: rgb(10, 10, 10);
+    text-align: center;
+    font-size: 3.8vh;
+    margin-top: 95px;
+    margin-bottom: 85px;
+}
+
+button {
+    display: block;
+    margin: auto;
+    margin-bottom: 55px;
+}
+
+/*Responsive*/
+@media only screen and (max-width: 650px){
+    .firstPage-info {
+      background-size:cover;
+      background-position:center;
+    }
+
+    .firstPage-info h2{
+        margin-top: 120px;
+    }
+
+    .article-eyebrow {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .article-image img {
+        width: 250px;
+        height: 200px;
+    }
+
+    main h2{
+        font-size: 2vh;
+    }
+
+    .paragraf-more p{
+        font-size: 2vh;
+    }
+}
